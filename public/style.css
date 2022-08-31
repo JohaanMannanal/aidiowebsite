@@ -1,0 +1,15 @@
+.fade-in {
+  opacity: 0;
+  transform: translateY(20vh);
+  transition: opacity 500ms ease-out, transform 500ms ease-out;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.header {
+  margin-left: 50px;
+  min-width: 200px;
+}
